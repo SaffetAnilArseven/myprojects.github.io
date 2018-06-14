@@ -1,0 +1,23 @@
+﻿.bx {
+    margin: 10px;
+    padding: 10px;
+}
+
+.s,
+.w {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.ax {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+}

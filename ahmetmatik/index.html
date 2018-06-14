@@ -1,0 +1,94 @@
+<!-- DEVELOPER: SAFFET ANIL ARSEVEN -->
+<doctaype html lang="tr" ng-if="true" ng-hide="false" ng-show="true" ng-app="">
+    <html>
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115802651-9"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-115802651-9');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="icon" type="icon" href="img/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/angular.css">
+        <link rel="stylesheet" type="text/css" href="css/angular-scenario.css">
+        <link rel="stylesheet" type="text/css" href="css/slash.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="scripts/angular.js"></script>
+        <script src="scripts/script.js" type="text/javascript"></script>
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="css/noscript.css">
+            </noscript>
+        <title>Ahmetmatik</title>
+    </head>
+
+    <body class="bx">
+        <noscript>
+          <div>
+          <center>
+      <h2 class="r1">Javascript, Komut Dosyaları veya AngularJS Engellendiği İçin Ahmetmatik Sayfası Kullanılamıyor</h2>
+      <br>
+      <a target="_blank" href="https://www.enable-javascript.com/tr/">
+        <h2 class="r2">Yardım</h2>
+      </a>
+    </center>
+  </div>
+    </noscript>
+        <div class="dx">
+            <center>
+                <h1 class="ax">Ahmetmatiğe Hoşgeldiniz</h1>
+                <table border="0.50" bgcolor="black">
+                    <form>
+                        <tr bgcolor="white" align="center">
+                            <th>
+                                <input type="number" value="{{s1}}" class="s" ng-model="s1">
+                                <!-- start ({{s1...s2}}) [1] -->
+                                <input type="number" value="{{s2}}" class="s" ng-model="s2">
+                                <!-- finish [1] -->
+                                <br>
+                    </form>
+                    <!-- (+ - x ÷ % ‰ =) -->
+                    <br>
+                    <h4 class="w" ng-model="w1">{{s1}} + {{s2}} = {{s1+s2}}</h4>
+                    <!-- start ({{w1...w6}}) [2] -->
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="w" ng-model="w2">{{s1}} - {{s2}} = {{s1-s2}}</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="w" ng-model="w3">{{s1}} x {{s2}} = {{s1*s2}}</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="w" ng-model="w4">{{s1}} ÷ {{s2}} = {{s1/s2}}</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="w" ng-model="w5">{{s1}} % {{s2}} = {{s1*s2/100}}</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="w" ng-model="w6">{{s1}} ‰ {{s2}} = {{s1*s2/1000}}</h4>
+                    <br>
+                    <!-- finish [2] -->
+
+                    </th>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </body>
+
+    </html>
+</doctaype>
