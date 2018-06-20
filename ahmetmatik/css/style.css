@@ -18,6 +18,10 @@
     font-family: monospace;
 }
 
+head {
+   display: none; 
+}
+
 * {
     box-sizing: border-box;
 }
