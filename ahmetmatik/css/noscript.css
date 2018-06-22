@@ -1,0 +1,24 @@
+﻿        .dx {
+            display: none;
+        }
+        
+        .r1,
+        .r2 {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: monospace;
+        }
+        
+        .r1 {
+            color: red;
+        }
+        
+        .r2 {
+            color: blue;
+            text-decoration-line: underline;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }

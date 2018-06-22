@@ -1,0 +1,29 @@
+﻿.bx {
+    margin: 10px;
+    padding: 10px;
+}
+
+.s,
+.w {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.tablex {
+    border: 1px;
+    background-color: black;
+}
+
+.trxx {
+    background-color: white;
+}
+
+head {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
